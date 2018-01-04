@@ -911,45 +911,6 @@ nav .menu ul li a:hover {
 }
 /* menu */
 /* ======================end======================== */
-@media screen and (min-height: 320px) and (max-height: 460px) and (min-width: 800px) and (max-width: 1200px)  {
-  header {
-    height: 100vh;
-    overflow: hidden;
-  }
-  header .bg-header .inner {
-    width: 90%;
-    height: auto;
-    left: 5%;
-    top: 50%;
-  }
-  .bg-header .inner .title h1 {
-    font-size: 25px;
-  }
-  .bg-header .inner .title h1:after {
-    margin: 5px auto;
-    height: 3px;
-  }
-  .bg-header .inner .text {
-    width: 100%;
-  }
-  .bg-header .inner .text p {
-    font-size: 14px;
-    text-transform: none;
-    letter-spacing: 0.5px;
-  }
-  .bg-header .inner .get-strated-btn {
-    width: 100%;
-    margin-left: 5%;
-  }
-  .btn {
-    margin: 0;
-    padding: 4px;
-    width: 90%;
-    height: 48px;
-    border: 2px solid #ffffff;
-    border-radius: 8px;
-  }
-}
 
 @media screen and (min-height:680px) and (max-height: 990px) and (min-width: 760px) and (max-width: 1200px){
      header {
