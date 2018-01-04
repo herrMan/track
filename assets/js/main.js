@@ -12,6 +12,7 @@ get("", "header .menu").addEventListener('click', () => {
     get('', 'body').style.overflow = 'hidden';
     get('', '.wrapper').classList.add('blur');
     get('', 'nav').style.display = 'block';
+    get("", "nav").innerHTML += `${window.innerWidth} ${window.innerHeight}`;
 })
 
 get('', 'nav .menu .close').addEventListener('click', () => {
