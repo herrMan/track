@@ -803,7 +803,7 @@ footer ul {
   margin: 0 20px;
   height: 100%;
   list-style-type: none;
-  width: 100%;
+  width: calc(100% - 22px);
 }
 
 footer ul li {
